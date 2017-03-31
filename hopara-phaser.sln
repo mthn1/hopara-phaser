@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "hopara-phaser", "hopara-phaser.jsproj", "{BB16D138-2313-4587-9934-33636755037C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Android.ActiveCfg = Debug|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Android.Build.0 = Debug|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Android.Deploy.0 = Debug|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|iOS.ActiveCfg = Debug|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|iOS.Build.0 = Debug|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|iOS.Deploy.0 = Debug|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Android.ActiveCfg = Release|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Android.Build.0 = Release|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Android.Deploy.0 = Release|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Release|iOS.ActiveCfg = Release|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Release|iOS.Build.0 = Release|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Release|iOS.Deploy.0 = Release|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
