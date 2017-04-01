@@ -4,6 +4,27 @@
  * each generates text, and buttons with input events 
  *
  */
+var splashScreen = {
+    init: function () {
+        this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        this.scale.pageAlignHorizontally = true;
+        this.scale.pageAlignVertically = true;
+    },
+    preload: function () {
+        this.load.image('splash', 'images/splash.png');
+    },
+    create: function () {
+        this.stage.backgroundColor = '#fff';
+        sprite = this.add.sprite(this.world.centerX, this.world.centerY, 'splash');
+        sprite.anchor.x = 0.5; sprite.anchor.y = 0.5;
+        this.game.time.events.add(3000, this.showMainScreen, this);
+    },
+    showMainScreen: function () {
+        console.log("showMainScreen called");
+        this.state.start("screen1");
+    }
+};
+
 var screen1 = {
     init: function () {
         this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
@@ -77,16 +98,16 @@ var detailScreen1 = {
             "thrust between them.", style);
         text1.wordWrap = true;
         text1.wordWrapWidth = 350;
-        var heading2 = this.add.text(0, 220, "Papakainga", headingStyle2);
-        var text2 = this.add.text(0, 245, "A Papakainga was an unfortified and undefended village or hamlet. In pre-European times Papakainga" +
+        var heading3 = this.add.text(0, 220, "Papakainga", headingStyle2);
+        var text3 = this.add.text(0, 245, "A Papakainga was an unfortified and undefended village or hamlet. In pre-European times Papakainga" +
             "were associated with food production and storage and inhabited by the people involved in these processes.", style);
-        text2.wordWrap = true;
-        text2.wordWrapWidth = 350;
-        var heading3 = this.add.text(0, 340, "Urupa", headingStyle2);
-        var text3 = this.add.text(0, 370, "Urupa are burial grounds where bodies of tribe members were buried with elaborate ceremonies and " +
-            "rituals. Often the bodies were buried with items of personal adornment or greenstone artefacts.", style);
         text3.wordWrap = true;
         text3.wordWrapWidth = 350;
+        var heading4 = this.add.text(0, 340, "Urupa", headingStyle2);
+        var text4 = this.add.text(0, 370, "Urupa are burial grounds where bodies of tribe members were buried with elaborate ceremonies and " +
+            "rituals. Often the bodies were buried with items of personal adornment or greenstone artefacts.", style);
+        text4.wordWrap = true;
+        text4.wordWrapWidth = 350;
         var buttonStyle = { font: "bold 24px Arial", fill: "#0A0", boundsAlignH: "center", boundsAlignV: "middle" };
         var textButton = this.add.text(this.world.centerX, 520, " Back ", buttonStyle);
         textButton.anchor.x = 0.5;
@@ -199,17 +220,16 @@ function init() {
     "use strict";
     
     var game = new Phaser.Game(384, 640, Phaser.AUTO);
+    game.state.add('splashscreen', splashScreen);
     game.state.add('screen1', screen1);
     game.state.add('detailscreen1', detailScreen1);
     game.state.add('detailscreen2', detailScreen2);
     game.state.add('detailscreen3', detailScreen3);
 
-
     document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 
-    function onDeviceReady() {
-        
-        game.state.start('screen1');
+    function onDeviceReady() {        
+        game.state.start('splashscreen');
     };
 
     

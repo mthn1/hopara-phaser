@@ -19,4 +19,7 @@
     <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
     <AndroidEmulatorID>AndroidEmulator;Google Emulator - Phone</AndroidEmulatorID>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|iOS'">
+    <DebuggerFlavor>iOSRemoteDevice</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
