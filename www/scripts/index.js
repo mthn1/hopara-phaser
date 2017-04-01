@@ -1,4 +1,10 @@
-﻿var screen1 = {
+﻿/*
+ *
+ * each screen of prototype corresponds to a game state object.
+ * each generates text, and buttons with input events 
+ *
+ */
+var screen1 = {
     init: function () {
         this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         this.scale.pageAlignHorizontally = true;
@@ -9,7 +15,6 @@
     create: function () {
         this.stage.backgroundColor = '#fff';
 
-        // heading and text 
         var headingStyle1 = { font: "bold 24px Arial", fill: "#000", boundsAlignH: "center", boundsAlignV: "middle" };
         var heading1 = this.add.text(0, 0, "History of the Waikato", headingStyle1);
         var style = { font: "12px Arial", fill: "#000", boundsAlignH: "center", boundsAlignV: "top" };
@@ -25,7 +30,6 @@
         text.wordWrap = true;
         text.wordWrapWidth = 350;
 
-        // add hyperlinks
         var buttonStyle = { font: "bold 16px Arial", fill: "#00F", boundsAlignH: "center", boundsAlignV: "middle" };
         var tbs = [
             { x: 0, y: 250, text: "Terminology", target: "detailscreen1" },
@@ -49,7 +53,7 @@
     }
 };
 
-
+// definitions
 var detailScreen1 = {
     init: function (callingScreen) {
         this.callingScreen = callingScreen;
@@ -97,7 +101,7 @@ var detailScreen1 = {
     }
 };
 
-
+// pukete pa
 var detailScreen2 = {
     init: function (callingScreen) {
         this.callingScreen = callingScreen;
@@ -139,11 +143,11 @@ var detailScreen2 = {
     }
 };
 
-
+// kirikiriroa pa
 var detailScreen3 = {
     init: function (callingScreen) {
         this.callingScreen = callingScreen;
-        this.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT;
+        this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         this.scale.pageAlignHorizontally = true;
         this.scale.pageAlignVertically = true;
     },
@@ -185,9 +189,15 @@ var detailScreen3 = {
 }; 
 
 
+
+/*
+ *
+ * instantiate phaser game and load game states and invoke starting game state on device ready event
+ *
+ */
 function init() {
     "use strict";
-     
+    
     var game = new Phaser.Game(384, 640, Phaser.AUTO);
     game.state.add('screen1', screen1);
     game.state.add('detailscreen1', detailScreen1);
