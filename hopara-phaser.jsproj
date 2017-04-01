@@ -1,6 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Browser-Test|Android">
+      <Configuration>Browser-Test</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser-Test|iOS">
+      <Configuration>Browser-Test</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser-Test|Windows-ARM">
+      <Configuration>Browser-Test</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser-Test|Windows-x64">
+      <Configuration>Browser-Test</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser-Test|Windows-x86">
+      <Configuration>Browser-Test</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser|Android">
+      <Configuration>Browser</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser|iOS">
+      <Configuration>Browser</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser|Windows-ARM">
+      <Configuration>Browser</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser|Windows-x64">
+      <Configuration>Browser</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Browser|Windows-x86">
+      <Configuration>Browser</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|Android">
       <Configuration>Debug</Configuration>
       <Platform>Android</Platform>
@@ -20,6 +60,26 @@
     <ProjectConfiguration Include="Debug|Windows-ARM">
       <Configuration>Debug</Configuration>
       <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Emulator|Android">
+      <Configuration>Emulator</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Emulator|iOS">
+      <Configuration>Emulator</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Emulator|Windows-ARM">
+      <Configuration>Emulator</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Emulator|Windows-x64">
+      <Configuration>Emulator</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Emulator|Windows-x86">
+      <Configuration>Emulator</Configuration>
+      <Platform>Windows-x86</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Android">
       <Configuration>Release</Configuration>
@@ -73,7 +133,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties project_1json__JSONSchema="http://www.asp.net/media/4878834/project.json" />
+      <UserProperties />
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>

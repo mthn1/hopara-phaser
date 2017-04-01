@@ -1,11 +1,11 @@
 {
      "android": {
-         "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
-             "keystoreType": ""
-         }
+      "release": {
+        "keystore": "c:\\users\\mcuz\\.keystore\\comp550.keystore",
+        "storePassword": "masoyama",
+        "alias": "mthn1",
+        "password": "masoyama",
+        "keystoreType": ""
+      }
      }
  }

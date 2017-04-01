@@ -1,17 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.10
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "hopara-phaser", "hopara-phaser.jsproj", "{BB16D138-2313-4587-9934-33636755037C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Browser|Android = Browser|Android
+		Browser|iOS = Browser|iOS
+		Browser|Windows-ARM = Browser|Windows-ARM
+		Browser|Windows-x64 = Browser|Windows-x64
+		Browser|Windows-x86 = Browser|Windows-x86
 		Debug|Android = Debug|Android
 		Debug|iOS = Debug|iOS
 		Debug|Windows-ARM = Debug|Windows-ARM
 		Debug|Windows-x64 = Debug|Windows-x64
 		Debug|Windows-x86 = Debug|Windows-x86
+		Emulator|Android = Emulator|Android
+		Emulator|iOS = Emulator|iOS
+		Emulator|Windows-ARM = Emulator|Windows-ARM
+		Emulator|Windows-x64 = Emulator|Windows-x64
+		Emulator|Windows-x86 = Emulator|Windows-x86
 		Release|Android = Release|Android
 		Release|iOS = Release|iOS
 		Release|Windows-ARM = Release|Windows-ARM
@@ -19,6 +29,21 @@ Global
 		Release|Windows-x86 = Release|Windows-x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Android.ActiveCfg = Browser|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Android.Build.0 = Browser|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Android.Deploy.0 = Browser|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|iOS.ActiveCfg = Browser|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|iOS.Build.0 = Browser|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|iOS.Deploy.0 = Browser|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-ARM.ActiveCfg = Browser|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-ARM.Build.0 = Browser|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-ARM.Deploy.0 = Browser|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-x64.ActiveCfg = Browser|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-x64.Build.0 = Browser|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-x64.Deploy.0 = Browser|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-x86.ActiveCfg = Browser|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-x86.Build.0 = Browser|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Browser|Windows-x86.Deploy.0 = Browser|Windows-x86
 		{BB16D138-2313-4587-9934-33636755037C}.Debug|Android.ActiveCfg = Debug|Android
 		{BB16D138-2313-4587-9934-33636755037C}.Debug|Android.Build.0 = Debug|Android
 		{BB16D138-2313-4587-9934-33636755037C}.Debug|Android.Deploy.0 = Debug|Android
@@ -34,6 +59,21 @@ Global
 		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
 		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
 		{BB16D138-2313-4587-9934-33636755037C}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Android.ActiveCfg = Emulator|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Android.Build.0 = Emulator|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Android.Deploy.0 = Emulator|Android
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|iOS.ActiveCfg = Emulator|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|iOS.Build.0 = Emulator|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|iOS.Deploy.0 = Emulator|iOS
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-ARM.ActiveCfg = Emulator|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-ARM.Build.0 = Emulator|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-ARM.Deploy.0 = Emulator|Windows-ARM
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-x64.ActiveCfg = Emulator|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-x64.Build.0 = Emulator|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-x64.Deploy.0 = Emulator|Windows-x64
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-x86.ActiveCfg = Emulator|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-x86.Build.0 = Emulator|Windows-x86
+		{BB16D138-2313-4587-9934-33636755037C}.Emulator|Windows-x86.Deploy.0 = Emulator|Windows-x86
 		{BB16D138-2313-4587-9934-33636755037C}.Release|Android.ActiveCfg = Release|Android
 		{BB16D138-2313-4587-9934-33636755037C}.Release|Android.Build.0 = Release|Android
 		{BB16D138-2313-4587-9934-33636755037C}.Release|Android.Deploy.0 = Release|Android
